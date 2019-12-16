@@ -1,0 +1,14 @@
+查看二进制日志是否开启：
+show global variables like 'log_bin';
+查看状态：
+show master status;
+重置密码：
+SET PASSWORD = PASSWORD('123456');  //123456 是重置的新密码
+更新密码：
+update user set password=password('你想设置的密码') where user='root';
+更新密码之后，刷新MySQL的系统权限相关表(否则会出现拒绝访问)：
+flush privileges;
+连接3307端口的mysql：
+mysql -u root -p -P 3307
+删除服务：
+sc delete (服务名);

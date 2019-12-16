@@ -1,0 +1,62 @@
+spring:
+  # Hikaricp数据库连接池
+  datasource:
+    # 主配置(端口3306)
+    master:
+      type: com.zaxxer.hikari.HikariDataSource
+      jdbc-url: jdbc:mysql://localhost:3306/readwriteseparation?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      read-only: false
+      connection-test-query: SELECT 1
+      idle-timeout: 600000
+      max-lifetime: 3000000
+      connection-timeout: 3000
+      maximum-pool-size: 5
+      minimum-idle: 5
+    # 从配置(端口3307)(最好设置只读账户)
+    slave1:
+      type: com.zaxxer.hikari.HikariDataSource
+      jdbc-url: jdbc:mysql://localhost:3307/readwriteseparation?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: onlyRead
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      read-only: true
+      idle-timeout: 600000
+      max-lifetime: 3000000
+      connection-timeout: 2000
+      maximum-pool-size: 5
+      minimum-idle: 5
+    # 从配置(端口3307)(最好设置只读账户)
+    slave2:
+      type: com.zaxxer.hikari.HikariDataSource
+      jdbc-url: jdbc:mysql://localhost:3307/readwriteseparation?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      username: onlyRead
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      read-only: true
+      idle-timeout: 600000
+      max-lifetime: 3000000
+      connection-timeout: 2000
+      maximum-pool-size: 5
+      minimum-idle: 5
+  # Spring boot视图配置
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+# 全局配置
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+# 配置pageHelper分页插件的内容
+pagehelper:
+  auto-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+# 日志配置文件
+logging:
+  config: classpath:logback.xml
