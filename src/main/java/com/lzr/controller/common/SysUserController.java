@@ -1,8 +1,8 @@
-package com.lzr.controller;
+package com.lzr.controller.common;
 
 import com.lzr.response.HttpResponse;
-import com.lzr.service.SysUserService;
-import com.lzr.vo.SysUserVO;
+import com.lzr.service.common.SysUserService;
+import com.lzr.vo.common.SysUserVO;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

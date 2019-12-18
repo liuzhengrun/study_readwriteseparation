@@ -1,4 +1,4 @@
-package com.lzr.vo;
+package com.lzr.vo.common;
 
 import lombok.Data;
 import lombok.ToString;

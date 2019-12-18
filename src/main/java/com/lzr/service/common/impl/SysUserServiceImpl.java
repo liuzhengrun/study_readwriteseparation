@@ -1,12 +1,12 @@
-package com.lzr.service.impl;
+package com.lzr.service.common.impl;
 
 import com.lzr.annotation.Master;
 import com.lzr.annotation.Slave;
 import com.lzr.dao.SysUserMapper;
 import com.lzr.model.SysUser;
 import com.lzr.response.HttpResponse;
-import com.lzr.service.SysUserService;
-import com.lzr.vo.SysUserVO;
+import com.lzr.service.common.SysUserService;
+import com.lzr.vo.common.SysUserVO;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

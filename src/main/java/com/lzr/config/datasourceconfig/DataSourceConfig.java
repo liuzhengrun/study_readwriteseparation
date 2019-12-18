@@ -1,4 +1,4 @@
-package com.lzr.config;
+package com.lzr.config.datasourceconfig;
 
 import com.lzr.response.enums.DBTypeEnum;
 import lombok.extern.log4j.Log4j2;
@@ -13,12 +13,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 关于数据源配置，参考SpringBoot官方文档第79章《Data Access》
+ * 数据源配置
  */
 @Log4j2
 @Configuration
 public class DataSourceConfig {
 
+    // 也可以new HikariDataSource(),但是DataSourceBuilder.create().build()会去寻找依赖
+    // 当我们修改连接池的时候，就不需要修改本地的java代码了
     @Bean
     @ConfigurationProperties("spring.datasource.master")
     public DataSource masterDataSource() {

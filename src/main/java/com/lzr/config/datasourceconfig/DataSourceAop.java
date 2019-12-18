@@ -1,12 +1,8 @@
-package com.lzr.config;
+package com.lzr.config.datasourceconfig;
 
-import org.apache.commons.lang3.StringUtils;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.core.Ordered;
-import org.springframework.core.PriorityOrdered;
 import org.springframework.stereotype.Component;
 
 /**

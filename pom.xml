@@ -64,6 +64,11 @@
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>2.1.0</version>
         </dependency>
+        <!-- redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -116,7 +121,18 @@
             <artifactId>easypoi-annotation</artifactId>
             <version>4.0.0</version>
         </dependency>
-
+        <!-- 热更新依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <!-- Jsoup是用于解析HTML，就类似XML解析器用于解析XML -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.10.2</version>
+        </dependency>
     </dependencies>
 
     <build>

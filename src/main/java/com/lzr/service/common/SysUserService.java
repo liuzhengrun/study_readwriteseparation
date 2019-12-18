@@ -1,7 +1,7 @@
-package com.lzr.service;
+package com.lzr.service.common;
 
 import com.lzr.response.HttpResponse;
-import com.lzr.vo.SysUserVO;
+import com.lzr.vo.common.SysUserVO;
 
 /**
  * @author lzr

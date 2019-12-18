@@ -1,0 +1,116 @@
+2019-12-17 14:30:48.631 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Starting ReadWriteSeparationApplication on SKY-20181113PUG with PID 3540 (D:\idea_project\studyproject\study_readwriteseparation\target\classes started by Administrator in D:\idea_project\studyproject\study_readwriteseparation)
+2019-12-17 14:30:48.637 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - No active profile set, falling back to default profiles: default
+2019-12-17 14:30:49.422 logback [main] WARN  t.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:30:49.436 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:30:49.478 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-17 14:30:49.480 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-17 14:30:49.521 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-12-17 14:30:49.798 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$752257e8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-17 14:30:50.470 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-17 14:30:50.485 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:30:50.495 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-17 14:30:50.495 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-17 14:30:50.502 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;D:\visualvm\bin;C:\Program Files\Java\jdk1.8.0_172\bin\;C:\Program Files\erl7.1;C:\Program Files\2345Soft\HaoZip;C:\Program Files\MySql3307\mysql-5.7.28-winx64\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2019-12-17 14:30:50.800 logback [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-17 14:30:50.805 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-17 14:30:50.806 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2123 ms
+2019-12-17 14:30:51.102 logback [main] INFO  c.l.c.d.DataSourceConfig - 开始配置多数据源
+2019-12-17 14:30:51.104 logback [main] INFO  c.l.c.d.DataSourceConfig - 多数据源配置完成
+2019-12-17 14:30:52.773 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-17 14:30:53.047 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-17 14:30:53.048 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-17 14:30:53.048 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-17 14:30:53.049 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-17 14:30:53.563 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:30:53.599 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-17 14:30:53.601 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Started ReadWriteSeparationApplication in 5.483 seconds (JVM running for 6.375)
+2019-12-17 14:30:59.292 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-17 14:30:59.293 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-17 14:30:59.313 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2019-12-17 14:31:40.740 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Starting ReadWriteSeparationApplication on SKY-20181113PUG with PID 9716 (D:\idea_project\studyproject\study_readwriteseparation\target\classes started by Administrator in D:\idea_project\studyproject\study_readwriteseparation)
+2019-12-17 14:31:40.744 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - No active profile set, falling back to default profiles: default
+2019-12-17 14:31:41.539 logback [main] WARN  t.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:31:41.552 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:31:41.593 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-17 14:31:41.595 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-17 14:31:41.636 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-12-17 14:31:41.927 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$827ffe7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-17 14:31:42.646 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-17 14:31:42.666 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:31:42.680 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-17 14:31:42.680 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-17 14:31:42.687 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;D:\visualvm\bin;C:\Program Files\Java\jdk1.8.0_172\bin\;C:\Program Files\erl7.1;C:\Program Files\2345Soft\HaoZip;C:\Program Files\MySql3307\mysql-5.7.28-winx64\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2019-12-17 14:31:42.986 logback [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-17 14:31:42.992 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-17 14:31:42.993 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2194 ms
+2019-12-17 14:31:43.305 logback [main] INFO  c.l.c.d.DataSourceConfig - 开始配置多数据源
+2019-12-17 14:31:43.308 logback [main] INFO  c.l.c.d.DataSourceConfig - 多数据源配置完成
+2019-12-17 14:31:45.029 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-17 14:31:45.400 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-17 14:31:45.400 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-17 14:31:45.401 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-17 14:31:45.401 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-17 14:31:45.936 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:31:45.972 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-17 14:31:45.975 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Started ReadWriteSeparationApplication in 5.788 seconds (JVM running for 6.755)
+2019-12-17 14:38:13.127 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-17 14:38:13.127 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-17 14:38:13.149 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-12-17 14:43:00.708 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Starting ReadWriteSeparationApplication on SKY-20181113PUG with PID 15216 (D:\idea_project\studyproject\study_readwriteseparation\target\classes started by Administrator in D:\idea_project\studyproject\study_readwriteseparation)
+2019-12-17 14:43:00.710 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - No active profile set, falling back to default profiles: default
+2019-12-17 14:43:01.461 logback [main] WARN  t.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:43:01.474 logback [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:43:01.512 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-17 14:43:01.514 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-17 14:43:01.551 logback [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-12-17 14:43:01.844 logback [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9025cf47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-17 14:43:02.539 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-17 14:43:02.587 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:43:02.597 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-17 14:43:02.597 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-17 14:43:02.603 logback [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;D:\visualvm\bin;C:\Program Files\Java\jdk1.8.0_172\bin\;C:\Program Files\erl7.1;C:\Program Files\2345Soft\HaoZip;C:\Program Files\MySql3307\mysql-5.7.28-winx64\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2019-12-17 14:43:02.898 logback [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-17 14:43:02.904 logback [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-17 14:43:02.904 logback [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2153 ms
+2019-12-17 14:43:03.135 logback [main] INFO  c.l.c.d.DataSourceConfig - 开始配置多数据源
+2019-12-17 14:43:03.138 logback [main] INFO  c.l.c.d.DataSourceConfig - 多数据源配置完成
+2019-12-17 14:43:05.005 logback [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-17 14:43:05.392 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-17 14:43:05.393 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-17 14:43:05.393 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-17 14:43:05.393 logback [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-17 14:43:06.525 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:43:06.570 logback [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-17 14:43:06.573 logback [main] INFO  c.lzr.ReadWriteSeparationApplication - Started ReadWriteSeparationApplication in 6.478 seconds (JVM running for 7.532)
+2019-12-17 14:43:18.770 logback [restartedMain] INFO  c.lzr.ReadWriteSeparationApplication - Starting ReadWriteSeparationApplication on SKY-20181113PUG with PID 12808 (D:\idea_project\studyproject\study_readwriteseparation\target\classes started by Administrator in D:\idea_project\studyproject\study_readwriteseparation)
+2019-12-17 14:43:18.773 logback [restartedMain] INFO  c.lzr.ReadWriteSeparationApplication - No active profile set, falling back to default profiles: default
+2019-12-17 14:43:18.876 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-17 14:43:18.876 logback [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-17 14:43:19.617 logback [restartedMain] WARN  t.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:43:19.631 logback [restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.lzr]' package. Please check your configuration.
+2019-12-17 14:43:19.673 logback [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-12-17 14:43:19.675 logback [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-17 14:43:19.718 logback [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-12-17 14:43:20.090 logback [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7c8aa29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-17 14:43:20.934 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-12-17 14:43:20.950 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:43:20.961 logback [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-17 14:43:20.961 logback [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-12-17 14:43:20.968 logback [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\software\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\nodejs\;D:\visualvm\bin;C:\Program Files\Java\jdk1.8.0_172\bin\;C:\Program Files\erl7.1;C:\Program Files\2345Soft\HaoZip;C:\Program Files\MySql3307\mysql-5.7.28-winx64\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2019-12-17 14:43:21.299 logback [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-12-17 14:43:21.304 logback [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-12-17 14:43:21.304 logback [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2428 ms
+2019-12-17 14:43:21.528 logback [restartedMain] INFO  c.l.c.d.DataSourceConfig - 开始配置多数据源
+2019-12-17 14:43:21.530 logback [restartedMain] INFO  c.l.c.d.DataSourceConfig - 多数据源配置完成
+2019-12-17 14:43:23.218 logback [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-17 14:43:23.480 logback [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-12-17 14:43:23.480 logback [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-12-17 14:43:23.481 logback [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-12-17 14:43:23.481 logback [restartedMain] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-12-17 14:43:24.047 logback [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-12-17 14:43:24.081 logback [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-12-17 14:43:24.117 logback [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-17 14:43:24.120 logback [restartedMain] INFO  c.lzr.ReadWriteSeparationApplication - Started ReadWriteSeparationApplication in 5.932 seconds (JVM running for 6.989)
+2019-12-17 14:50:53.103 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-17 14:50:53.103 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-12-17 14:50:53.128 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms

@@ -44,8 +44,12 @@ spring:
   # Spring boot视图配置
   mvc:
     view:
-      prefix: /WEB-INF/
+      prefix:
       suffix: .jsp
+  # 数据时间格式处理
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
 # 全局配置
 server:
   port: 8080
